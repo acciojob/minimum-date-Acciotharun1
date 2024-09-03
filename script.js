@@ -2,7 +2,7 @@ function minDate(dates) {
   //write you code here
 	lelet dob= dates.map(datestr=> new Date(dates));
 	let mdate=new Date(Math.min.apply(null,dob));
-	let msdate= mdate.getFullYear()+'/'+(mdate.getMonth()+1)+'/'+mdate.geDate();
+	let msdate= mdate.getFullYear()+'/'+(mdate.getMonth()+1)+'/'+mdate.getDate();
 	console.log(msdate);
 	
 }
