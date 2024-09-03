@@ -1,8 +1,10 @@
 function minDate(dates) {
   //write you code here
-	let date = new date(dates);
-	let mdate = math.min(date);
-	console.log(mdate);
+	lelet dob= dates.map(datestr=> new Date(dates));
+	let mdate=new Date(Math.min.apply(dob));
+	let msdate= mdate.getFullYear()+'/'+(mdate.getMonth()+1)+'/'+mdate.geDate();
+	console.log(msdate);
+	
 }
 
 // Do not change the code
