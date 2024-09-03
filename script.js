@@ -1,5 +1,8 @@
 function minDate(dates) {
   //write you code here
+	let date = new date(dates);
+	let mdate = math.min(date);
+	console.log(mdate);
 }
 
 // Do not change the code
